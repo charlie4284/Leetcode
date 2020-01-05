@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	rainfall := []int{3, 0, 2, 3}
-	result := hard.GetRainfall(rainfall)
-	fmt.Println(result)
+	result, err := hard.GetIPAddress("0000")
+	fmt.Println(result, err)
 }
